@@ -1,0 +1,47 @@
+body {
+  background: linear-gradient(to right, #78bd91, #f79eb1);
+  width: 100%;
+}
+
+.foot {
+  position: relative;
+  margin-top: 660px;
+  box-sizing: border-box;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 510px;
+}
+
+footer {
+  font-size: large;
+  border-left: 5px solid;
+  border-right: 5px solid;
+  width: 310px;
+  padding: 20px;
+  background-color: white;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+a {
+  text-decoration: none;
+  color: red;
+  font-size: 25px;
+  &:hover {
+    background-color: cornflowerblue;
+  }
+}
+
+.inicio {
+  margin: top 120px;
+  border: 1px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
