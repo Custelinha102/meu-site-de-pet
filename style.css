@@ -121,10 +121,27 @@ main {
   flex-wrap: wrap;
 }
 
-h1 {
+h1,
+h3 {
   margin-top: 50px;
 }
 
+.avaliacao {
+  border: 3px dashed;
+  box-sizing: border-box;
+  display: block;
+  padding: 40px;
+}
+
+#avaliar1 {
+  margin-left: 35rem;
+  margin-top: 38.5px;
+}
+
+#avaliar2 {
+  margin-left: 35.05rem;
+  margin-top: 8.5px;
+}
 .circulo1 {
   border: solid hotpink;
   border-radius: 50%;
@@ -230,7 +247,7 @@ h1 {
 .foto {
   margin: auto;
   margin-top: 77px;
-  border: transparent;
+  border: solid;
   padding-left: 350px;
   padding-right: 350px;
   margin-left: 1rem;
@@ -243,3 +260,17 @@ img {
   width: 600px;
   height: 400px;
 }
+
+#name {
+  margin-right: 30px;
+}
+
+/*
+
+transparent = true 
+
+onclick {
+  do {button
+  } while transparent = false
+} 
+  */
